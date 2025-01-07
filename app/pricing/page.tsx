@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const MONTHLY_COSTS = [
   {
-    name: 'AI 模型调用',
+    name: 'AI 模型费用',
     amount: '约 ¥2.5/张',
     // details: '使用 Stable Diffusion XL 模型生成高质量图片'
   },
@@ -13,7 +13,7 @@ const MONTHLY_COSTS = [
   },
   {
     name: '域名费用',
-    amount: '¥39/年',
+    amount: '¥60/年',
     // details: '域名注册和续费'
   }
 ];

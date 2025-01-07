@@ -8,7 +8,7 @@ const FEATURED_IMAGES = [
   },
   {
     id: 2,
-    src: '/featured/1.png',
+    src: '/featured/2.png',
     alt: '图片 2',
   },
   {
@@ -18,9 +18,9 @@ const FEATURED_IMAGES = [
   },
   {
     id: 4,
-    src: '/featured/2.png',
+    src: '/featured/1.png',
     alt: '图片 4',
-  },
+  } 
 ];
 
 export default function FeaturedPage() {
