@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI 红包背景生成器
 
-## Getting Started
+## 项目简介
 
-First, run the development server:
+这是一个使用 AI 技术生成个性化红包背景的应用。用户可以通过描述或关键词生成独特的红包背景图案。
 
+## 技术栈
+
+- Next.js 14 (App Router)
+- TypeScript
+- TailwindCSS
+- Replicate/Stable Diffusion API (用于AI图像生成)
+- Cloudinary (用于图片存储和处理)
+- Shadcn/ui (UI组件库)
+
+## 核心功能
+
+1. **AI 图像生成**
+   - 文本到图像的转换
+   - 预设红包主题模板
+   - 自定义提示词输入
+
+2. **图像处理**
+   - 图像裁剪和调整
+   - 红包尺寸预设
+   - 图像优化
+
+3. **用户界面**
+   - 直观的提示词输入界面
+   - 实时预览
+   - 图像编辑工具
+   - 下载功能
+
+## 项目结构
+
+## 开始使用
+
+1. 安装依赖：
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. 创建 `.env.local` 文件并添加必要的环境变量：
+```
+NEXT_PUBLIC_API_URL=https://api.siliconflow.cn/v1/images/generations
+NEXT_PUBLIC_API_KEY=your_api_key_here
+NEXT_PUBLIC_AI_MODEL=black-forest-labs/FLUX.1-pro
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 配置说明
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+可以通过环境变量配置以下参数：
 
-## Learn More
+- `NEXT_PUBLIC_API_URL`: AI 图像生成 API 地址
+- `NEXT_PUBLIC_API_KEY`: API 密钥
+- `NEXT_PUBLIC_AI_MODEL`: 使用的 AI 模型，默认为 'black-forest-labs/FLUX.1-pro'
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+其他 AI 相关配置可以在 `app/config/index.ts` 中修改。

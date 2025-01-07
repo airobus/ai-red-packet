@@ -1,0 +1,22 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="32" height="32" rx="8" fill="#FF4D4F"/>
+  
+  <!-- 灯笼主体 -->
+  <path d="M16 4C13 4 10.5 6 10.5 10L10.5 18C10.5 22 13 24 16 24C19 24 21.5 22 21.5 18L21.5 10C21.5 6 19 4 16 4Z" fill="#FFD666"/>
+  
+  <!-- 灯笼装饰 -->
+  <path d="M10.5 11H21.5" stroke="#FF1F1F" stroke-width="1"/>
+  <path d="M10.5 15H21.5" stroke="#FF1F1F" stroke-width="1"/>
+  
+  <!-- 灯笼顶部 -->
+  <path d="M14 4H18C18 4 19 5 19 6H13C13 5 14 4 14 4Z" fill="#FF1F1F"/>
+  
+  <!-- 灯笼底部流苏 -->
+  <path d="M14 24L13 28M16 24L16 28M18 24L19 28" stroke="#FF1F1F" stroke-width="1"/>
+  
+  <!-- 福字 -->
+  <path d="M16 10C14.895 10 14 10.895 14 12V16C14 17.105 14.895 18 16 18C17.105 18 18 17.105 18 16V12C18 10.895 17.105 10 16 10Z" fill="#FF1F1F"/>
+  <path d="M15 13H17" stroke="#FFD666" stroke-width="1"/>
+  <path d="M15 15H17" stroke="#FFD666" stroke-width="1"/>
+</svg> 
