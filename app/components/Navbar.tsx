@@ -9,7 +9,7 @@ const navigation = [
   { name: '首页', href: '/' },
   { name: '价格', href: '/pricing' },
   { name: '精品', href: '/featured' },
-//   { name: '品牌案例', href: '/cases' },
+  { name: '每日古诗AI图', href: 'https://ai.923828.xyz' },
 ] as const;
 
 export function Navbar() {

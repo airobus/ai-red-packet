@@ -83,7 +83,7 @@ export default function Home() {
             <span className="inline-block transition-transform duration-200 
               group-hover:scale-110"
             >
-              新年快乐，龙年大吉🐲
+              新年快乐，蛇年大吉🐍
             </span>
           </h1>
         </div>
